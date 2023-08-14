@@ -9,8 +9,21 @@ NeonLang 是一种代码生成器，提前尝试改进语法
 
 
 ```cpp
+
+char %name% (%Param%) { %Code% }
+float %name% (%Param%) { %Code% }
+int %name% (%Param%) { %Code% }
+void %name% (%Param%) { %Code% }
+int %Param%;
+
 #:"代码文件名字" Api
 [int:h=10, w=20, slr=60]
+
+
+
+
+
+
 void Hello [int:h, w, slr] [float:maot, w2, sl3r]
 		编译
 	↓ ↓	↓	↓
