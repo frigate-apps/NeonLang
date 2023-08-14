@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="NeonLang-Logo.svg">
-  <img src="NeonLang-Logo.svg" alt="NeonLang-Logo" height="128">
+  <source media="(prefers-color-scheme: dark)" srcset="NeonLang-logo.svg">
+  <img src="NeonLang-logo.svg" alt="NeonLang-Logo" height="128">
 </picture>
 
 # NeonLang 1.0
