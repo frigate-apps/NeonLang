@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="768px" height="768px" viewBox="0 0 768 768" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <g id="编组-3">
-    <path d="M0 0L768 0L768 768L0 768L0 0L0 0Z" id="矩形" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
-    <path d="M24 384C24 185.177 185.177 24 384 24C582.823 24 744 185.177 744 384C744 582.823 582.823 744 384 744C185.177 744 24 582.823 24 384Z" id="椭圆" fill="#B4F528" fill-rule="evenodd" stroke="none" />
+    <path d="M0 0L768 0L768 768L0 768L0 0L0 0Z" id="矩形" fill="#B4F528" fill-rule="evenodd" stroke="none" />
     <g id="编组" transform="translate(176.25 118)">
       <g id="N" transform="translate(20.5 20)">
         <g id="N" fill="#2E2A2A" fill-opacity="0.49803922">
