@@ -1,28 +1,22 @@
 cmake_minimum_required(VERSION 3.19)
-project(main C CXX)
-set(CMAKE_CXX_STANDARD 17)
-# set(CMAKE_CXX_FLAGS "-m32")
-
-# 输出操作系统平台信息
-math(EXPR TARGET_BITS "8 * ${CMAKE_SIZEOF_VOID_P}")
-if (WIN32)
-    message(STATUS "Building on Windows platform.")
-elseif (APPLE)
-    message(STATUS "Building on MacOS platform.")
-    add_compile_definitions(TARGET_OS_MAC)
-elseif (UNIX)
-    message(STATUS "Building on UNIX-like OS platform.")
-elseif (MinGW)
-    message(STATUS "Building on UNIX-like OS platform.")
-endif ()
+project(demo C CXX)
 
 include_directories(include)
 
+file(GLOB APP_SOURCES source/*.cpp source/*.c)
+# file(GLOB APP_HEADERS include/*.hpp include/*.h) ${APP_HEADERS}
 
-# 添加头文件(*/include)
-include_directories(NeonLang/include)
-include_directories(demo/include)
+# win32窗口、win32控制台
+# add_executable(space-longan-renderer WIN32 source/main.cpp)
 
-# 添加创建库文件的子目录
-add_subdirectory(Neon)
-add_subdirectory(demo)
+add_executable(demo ${APP_SOURCES})
+
+# link_directories(
+#    Neon
+#)
+
+# 添加链接库文件(lib)
+target_link_libraries(demo
+        # gcc
+        # mingw32
+        )
