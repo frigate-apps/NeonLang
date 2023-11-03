@@ -3,9 +3,9 @@
   <img src="NeonLang-logo.svg" alt="NeonLang-Logo" height="128">
 </picture>
 
-# NeonLang 1.0
+# NeonBuild 1.0
 
-NeonLang 是一种代码生成器，提前尝试改进语法
+NeonBuild 是一种代码生成器，提前尝试改进语法
 
 
 ```cpp
