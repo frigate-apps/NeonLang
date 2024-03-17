@@ -38,7 +38,7 @@ void Hello (int h, int w, int slr, float maot, float w2, float slr3) {
 
 | 系统 | 名字 | 支持 | 
 |:--:|:--:|:--:|
-| Wnodws | NSON、TOML  | ✅ |
+| Wnodws | Pnlo、TOML  | ✅ |
 | Wnodws | NeonLang | ✅ |
 | NoteOS | NeonLang | ✅ |
 | Mac | NeonLang | ✅ |
